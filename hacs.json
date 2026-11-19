@@ -1,5 +1,6 @@
 {
   "name": "Message Board Card",
   "render_readme": true,
-  "homeassistant": "2024.1.0"
+  "homeassistant": "2024.1.0",
+  "filename": "message-board-card.js"
 }
