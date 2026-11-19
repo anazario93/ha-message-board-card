@@ -1,0 +1,16 @@
+name: HACS validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hacs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate HACS structure
+        uses: hacs/action@main
+        with:
+          category: plugin
