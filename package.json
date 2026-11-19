@@ -1,0 +1,10 @@
+{
+  "name": "ha-message-board-card",
+  "version": "1.0.0",
+  "description": "A configurable Home Assistant Lovelace message board card",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "check": "node --check message-board-card.js"
+  }
+}
