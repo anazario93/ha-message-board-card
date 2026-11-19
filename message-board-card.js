@@ -182,7 +182,7 @@ class MessageBoardCardEditor extends HTMLElement {
         name: "entity",
         label: "Text sensor",
         required: true,
-        selector: { entity: { filter: [{ domain: "text" }] } },
+        selector: { entity: { filter: [{ domain: "input_text" }] } },
       },
       {
         name: "name",
