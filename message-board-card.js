@@ -39,7 +39,7 @@ class MessageBoardCard extends HTMLElement {
 
   static getStubConfig() {
     return {
-      entity: "",
+      entity: "sensor.example",
       name: "Message Board",
       icon: "mdi:message-text",
     };
